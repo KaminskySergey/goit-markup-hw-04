@@ -464,6 +464,8 @@ color: var(--brand-grey);
     margin-left: 30px;
     width: 170px;
     height: 92px;
+    cursor: pointer;
+    
     
 }
 .client-link{
