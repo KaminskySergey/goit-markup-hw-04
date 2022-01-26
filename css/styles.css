@@ -7,7 +7,9 @@
     --brand-black-studio: #000000;
     --brand-background: #E5E5E5;
     --brand-background-team: #F5F4FA;
-    
+    --brand-link-svg:#AFB1B8;
+    --brand-btn:#188CE8;
+    --brand-border:#EEEEEE;
     
 }
  /* СТУДИЯ 1 */
@@ -227,6 +229,7 @@ a{
     padding-bottom: 200px;
     background-color: var(--brand-fon);
     text-align: center;
+    
 }
 .overlane{
     
@@ -268,10 +271,10 @@ border:1px solid transparent;
 padding: 10px 32px;
 }
 .hero-btn:hover, .hero-btn:focus{
-    background-color:#188CE8;
+    background-color:var(--brand-btn);
 }
 .hero-btn:active{
-    background-color:#188CE8;
+    background-color:var(--brand-btn);
 }
 /* ////////////////////special /////////////////////////*/
 .special{
@@ -295,7 +298,7 @@ padding: 10px 32px;
 .special-cont-svg{
    width: 270px;
    height: 120px;
-   background-color: #F5F4FA;
+   background-color: var(--brand-background-team);
    display: flex;
    justify-content: center;
    align-items: center;
@@ -349,7 +352,6 @@ color: var(--brand-grey);
 /* ////////////////////////work ////////////////////*/
 .work{
     display: flex;
-    padding-top: 94px;
     padding-bottom: 94px;
     
     
@@ -389,7 +391,7 @@ color: var(--brand-grey);
 }
 .team-item{
 margin-right: 30px;
-background: #FFFFFF;
+background: var(--brand-white);
 box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 border-radius: 0px 0px 4px 4px;
 
@@ -411,7 +413,7 @@ border-radius: 0px 0px 4px 4px;
     height: 44px;
     justify-content: center;
     align-items: center;
-    fill: #AFB1B8;
+    fill: var(--brand-link-svg);
     cursor: pointer;
 }
 .team-link-svg:hover, .team-link-svg:focus{
@@ -472,12 +474,12 @@ margin-bottom: 16px;
     display: block;
     width: 170px;
     height: 92px;
-    border: 1px solid #AFB1B8;
+    border: 1px solid var(--brand-link-svg);
     border-radius: 4px;
     display: flex;
     justify-content: center;
     align-items: center;
-    fill: #AFB1B8;
+    fill: var(--brand-link-svg);
     }
     
     .client-link:hover, .client-link:focus{
@@ -652,6 +654,12 @@ padding: 6px 22px;
 .services-cards-item:hover{
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
+.services-link{
+   display: block;
+}
+.services-link:hover, .services-link:focus{
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
 .services-cards-item{
     margin-right:30px;
     margin-bottom: 30px;
@@ -687,7 +695,7 @@ color: var(--brand-grey);
 
 
 .poster-text{
-    border: 1px solid #EEEEEE;
+    border: 1px solid var(--brand-border);
     padding:20px 24px;   
     border-top: 0;
     
